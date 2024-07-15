@@ -153,11 +153,12 @@ body {
 
 .action-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 600px;
     background-color: #3882f6;
     color: #E5E7EB;
-    padding: 15px 20px;
+    padding: 35px 60px;
     margin: auto;
 }
 
@@ -167,6 +168,13 @@ body {
 
 .action-text p {
     margin: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
 }
 
 ul {
