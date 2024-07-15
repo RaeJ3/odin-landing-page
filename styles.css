@@ -4,9 +4,10 @@ body {
 
 .hero,
 .header,
-.footer {
+.footer,
+.pictures {
     display: flex;
-    /* justify-content: space-between;    */
+    justify-content: center;   
     align-items: center;
 }
 
@@ -35,6 +36,16 @@ body {
 .header-link {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.pictures {
+    background-color: white;
+}
+
+.pictures .header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 ul {
