@@ -56,7 +56,7 @@ body {
     margin: 0;
 }
 
-.hero-btn {
+.btn {
     display: flex;
     margin: 0;
     justify-content: center;
@@ -141,6 +141,32 @@ body {
     margin: 0;
     font-weight: bold;
     padding-right: 15px;
+}
+
+.action-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 60px;
+}
+
+.action-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    padding: 15px 20px;
+    margin: auto;
+}
+
+.action-container button {
+    border: 1px solid white;
+}
+
+.action-text p {
+    margin: 0;
 }
 
 ul {
