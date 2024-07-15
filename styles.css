@@ -114,6 +114,35 @@ body {
     border: 2px solid #3882f6;
 }
 
+.quote-section {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    padding: 64px;
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    margin: auto;
+    /* max-height: 300px; */
+    max-width: 750px; 
+    /* width: 350px; */
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
 ul {
     display: flex;
     gap: 8px;
