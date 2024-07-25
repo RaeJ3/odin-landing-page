@@ -33,16 +33,16 @@ body {
     justify-content: center;
     /* flex: 1; */
     /* margin-top: auto; */
-    
 }
 
 
 .header-container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     margin: 0;
     flex-shrink: 0;
+    width: 70%;
 }
 
 
@@ -61,6 +61,7 @@ body {
 .hero .img {
     /* font-size: 24px; */
     /* padding: 24px; */
+    /* margin: 50px 0px */
 }
 
 .hero-container {
@@ -70,6 +71,7 @@ body {
     align-items: center;
     /* flex-direction: column nowrap; */
     width: 70%;
+    margin: 50px 0px;
 }
 
 .hero-maingroup {
@@ -129,6 +131,7 @@ body {
     padding: 20px;
     background-color: white;
     flex-shrink: 0;
+    margin: 50px 0px
 }
 
 .pictures .header {
