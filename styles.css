@@ -1,5 +1,5 @@
 * {
-    outline: 2px solid orange;
+    /* outline: 2px solid orange; */
 }
 
 body {
@@ -112,7 +112,7 @@ body {
     background-color: #3882f6;
     color: #F9FAF8;
     border-radius: 5%;
-    min-width: 80px;
+    width: 80px;
     border: none;
     padding: 4px;
 }
