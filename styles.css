@@ -72,11 +72,13 @@ body {
     /* flex-direction: column nowrap; */
     width: 70%;
     margin: 50px 0px;
+    gap: 20px;
 }
 
 .hero-maingroup {
     display: flex;
-    /* width: 500px; */
+    flex-direction: column;
+    /* width: 700px; */
 }
 
 .hero-title {
@@ -127,6 +129,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 70%;
     gap: 24px;
     padding: 20px;
     background-color: white;
@@ -155,23 +158,28 @@ body {
 
 .quote-section {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 64px;
+    /* padding: 64px; */
     background-color: #E5E7EB;
     flex-shrink: 0;
 }
 
 .quote-container {
-    margin: auto;
+    /* margin: auto; */
     /* max-height: 300px; */
-    max-width: 750px; 
     /* width: 350px; */
+    margin: 50px 0px;
+    width: 70%;
+}
+
+.quote {
+    max-width: 750px;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
-    margin: 0;
+    margin: 0px;
 }
 
 .quote-author {
