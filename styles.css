@@ -155,6 +155,8 @@ body {
     flex-direction: column;
     width: 250px;
     height: 200px;
+    justify-content: center;
+    align-items: center;
 }
 
 .image-container img {
