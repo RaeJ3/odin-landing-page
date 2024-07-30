@@ -210,7 +210,8 @@ body {
     margin: 0;
     font-size: larger;
     font-weight: bolder;
-    /* padding-right: 15px; */
+    padding-top: 5px;
+    padding-right: 40px;
 }
 
 .action-section {
